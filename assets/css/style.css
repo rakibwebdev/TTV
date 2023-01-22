@@ -716,4 +716,54 @@ li {
     .desktop-logo {
         display: none !important;
     }
+    .hero-section {
+        background-image: url(../img/hero.svg);
+        background-position: 76% 65%;
+    }
+    .site-header .navbar-nav {
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .site-header .main-nav {
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+    .our-solution-section .card {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 425px) {
+    .subscribe-section .form-wrapper {
+        flex-wrap: wrap;
+    }
+    .hero-section h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .hero-section .dual-button {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: start;
+        gap: 10px;
+    }
+    .hero-section .dual-button .second-btn {
+        margin-left: unset;
+    }
+    .boost-your-business {
+        margin: 20px;
+    }
+    .boost-your-business .container-bg {
+        padding: 20px;
+    }
+    .margin-bottom-40 {
+        margin-bottom: 40px;
+    }
+    .slider-section {
+        margin: 0px;
+    }
+    .slider-section .swiper-slide {
+        padding: 30px 0px;
+    }
 }
